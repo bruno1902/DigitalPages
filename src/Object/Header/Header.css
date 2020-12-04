@@ -1,0 +1,40 @@
+.wrapper-header{
+    background-color: #029486;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 4%;
+    align-items: center;
+}
+
+.menu{
+    background-color: black;
+    width: 25px;
+    height: 1px;
+}
+
+.menu:before{
+    background-color: black;
+    display: block;
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 1px;
+    top: 40px;
+}
+
+.menu::after{
+    background-color: black;
+    display: block;
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 1px;
+    top: 28px;
+}
+
+.text-header{
+    position: absolute;
+    left: 20%;
+    color: #ffffff;
+}

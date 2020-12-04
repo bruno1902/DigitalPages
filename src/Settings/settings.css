@@ -1,0 +1,12 @@
+:root{
+
+    --bgc-color: #e2e2e2;
+    --bgc-header: #029486;
+    --font-sz: 3vh;
+    --margin-global: 5% 3%
+}
+
+body{
+    font-size: var(--font-sz);
+    font-family: Arial, Helvetica, sans-serif;
+}

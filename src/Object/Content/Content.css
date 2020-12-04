@@ -1,0 +1,19 @@
+.content-data{
+    position: relative;
+    padding-top: 3%;
+    margin-left: 4%;
+    margin-right: 2%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    line-height: 18px;
+}
+
+img{
+    width: 20vh
+}
+
+.bgc-content{
+    background-color: #ffffff;
+}

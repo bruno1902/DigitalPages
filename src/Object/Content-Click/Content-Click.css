@@ -1,0 +1,120 @@
+@media(max-width: 740px) {
+
+.content-photo{
+    display: flex;
+    position: relative;
+    justify-items: center;
+    margin: 2% 50%;
+    transform: translateX(-50%);
+    width: 90%;
+}
+
+.info-title{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e2e2e2;
+    padding: var(--margin-global);
+    padding-left: 35px;
+}
+
+.text-space{
+    position: absolute;
+    left: 65%;
+}
+
+}
+
+@media(min-width: 740px) {
+
+    body{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--bgc-color);
+    }
+
+    .bgc-info{
+        background-color: #fff;
+    }
+
+    .content-photo{
+        display: flex;
+        position: relative;
+        justify-items: center;
+        margin: 2% 50%;
+        transform: translateX(-50%);
+        width: 30%;
+    }
+
+    .info-title{
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    .infos{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #e2e2e2;
+        padding: var(--margin-global);
+        padding-left: 30%;
+    }
+    
+    .text-space{
+        position: absolute;
+        left: 60%;
+    }
+
+    .wrapper-header{
+        background-color: #029486;
+        height: 5vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 4% 4%;
+        align-items: center;
+    }
+    
+    .menu{
+        background-color: black;
+        width: 35px;
+        height: 1px;
+    }
+    
+    .menu:before{
+        background-color: black;
+        display: block;
+        position: absolute;
+        content: '';
+        width: 35px;
+        height: 1px;
+        top: 100px;
+    }
+    
+    .menu::after{
+        background-color: black;
+        display: block;
+        position: absolute;
+        content: '';
+        width: 35px;
+        height: 1px;
+        top: 92px;
+    }
+    
+    .text-header{
+        position: absolute;
+        left: 20%;
+        color: #ffffff;
+        font-size: 5vh;
+    }
+
+}
